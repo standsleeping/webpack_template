@@ -1,8 +1,9 @@
 require("./style.css")
 import React from 'react'
+import ReactDOM from 'react-dom'
 import Greeting from './content'
 
-React.render(
+ReactDOM.render(
   <Greeting name="Mick!!"/>,
-  document.body
+  document.getElementById('hola')
 )

@@ -1,0 +1,25 @@
+{
+  "name": "webpack_template",
+  "version": "0.0.1",
+  "description": "A minimal template to build toy javascript applications",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/standsleeping/webpack_template.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Ryan Prinz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/standsleeping/webpack_template/issues"
+  },
+  "homepage": "https://github.com/standsleeping/webpack_template#readme",
+  "dependencies": {
+    "webpack": "^1.12.2"
+  }
+}

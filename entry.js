@@ -1,2 +1,8 @@
 require("./style.css")
-document.write(require("./content.js"))
+import React from 'react'
+import Greeting from './content'
+
+React.render(
+  <Greeting name="Mick!!"/>,
+  document.body
+)

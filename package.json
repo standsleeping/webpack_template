@@ -4,7 +4,7 @@
   "description": "A minimal template to build toy javascript applications",
   "main": "entry.js",
   "scripts": {
-    "start": "webpack --progress --colors --watch"
+    "start": "npm install; webpack --progress --colors --watch"
   },
   "repository": {
     "type": "git",

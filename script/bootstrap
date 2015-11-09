@@ -1,0 +1,4 @@
+#!/bin/bash
+npm update -g nodemon
+npm prune
+npm update

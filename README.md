@@ -2,5 +2,5 @@
 A minimal template to build toy javascript applications
 
 ```
-$ npm start
+$ script/dev
 ```

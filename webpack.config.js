@@ -10,5 +10,8 @@ module.exports = {
             { test: /\.css$/, loader: "style!css" }
         ]
     },
-    devtool: 'source-map'
+    devtool: 'source-map',
+    devServer: {
+      port: 8282,
+    }
 }
